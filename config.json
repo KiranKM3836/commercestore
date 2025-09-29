@@ -1,39 +1,40 @@
 {
   "public": {
     "default": {
-      "commerce-core-endpoint": "https://mps.klizer.co/graphql",
-      "commerce-endpoint": "https://mps.klizer.co/graphql",
+      "commerce-core-endpoint": "https://www.aemshop.net/graphql",
+      "commerce-endpoint": "https://www.aemshop.net/cs-graphql",
       "headers": {
         "all": {
           "Store": "default"
         },
         "cs": {
           "Magento-Customer-Group": "b6589fc6ab0dc82cf12099d1c2d40ab994e8410c",
-          "Magento-Store-Code": "mps_website_store",
-          "Magento-Store-View-Code": "mps_default",
-          "Magento-Website-Code": "mpsb2c_base"
+          "Magento-Store-Code": "main_website_store",
+          "Magento-Store-View-Code": "default",
+          "Magento-Website-Code": "base",
+          "x-api-key": "4dfa19c9fe6f4cccade55cc5b3da94f7",
+          "Magento-Environment-Id": "f38a0de0-764b-41fa-bd2c-5bc2f3c7b39a"
         }
       },
-      "commerce-assets-enabled": false,
       "analytics": {
         "base-currency-code": "USD",
         "environment": "Testing",
-        "environment-id": "739b6072-06b7-4618-97a2-81a9e62918fb",
-        "store-code": "mps_website_store",
-        "store-id": "mps_website_store",
-        "store-name": "MPS Store View",
-        "store-url": "http://mps.klizer.co/",
-        "store-view-code": "mps_default",
-        "store-view-id": "mps_default",
-        "store-view-name": "MPS Store View",
-        "website-code": "mpsb2c_base",
-        "website-id": "mpsb2c_base",
-        "website-name": "Marine Parts Source"
+        "environment-id": "f38a0de0-764b-41fa-bd2c-5bc2f3c7b39a",
+        "store-code": "main_website_store",
+        "store-id": 1,
+        "store-name": "Main Website Store",
+        "store-url": "https://www.aemshop.net",
+        "store-view-code": "default",
+        "store-view-id": 1,
+        "store-view-name": "Default Store View",
+        "website-code": "base",
+        "website-id": 1,
+        "website-name": "Main Website"
       },
       "plugins": {
         "picker": {
-          "rootCategory": "2"
-        }
+           "rootCategory": "2"
+         }
       }
     }
   }
