@@ -8,11 +8,12 @@
           "Store": "default"
         },
         "cs": {
+          "Content-Type": "application/json",
           "Magento-Customer-Group": "b6589fc6ab0dc82cf12099d1c2d40ab994e8410c",
           "Magento-Store-Code": "mps_website_store",
           "Magento-Store-View-Code": "mps_default",
           "Magento-Website-Code": "mpsb2c_base",
-          "x-api-key": "4dfa19c9fe6f4cccade55cc5b3da94f7",
+          "x-api-key": "search_gql",
           "Magento-Environment-Id": "739b6072-06b7-4618-97a2-81a9e62918fb"
         }
       },
